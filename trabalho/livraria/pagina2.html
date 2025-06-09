@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Inscrição</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Formulário de Inscrição</h1>
+    <p>Preencha os dados abaixo para entrar no mundo literário dos sonhos.</p>
+  </header>
+
+  <main class="form-container">
+    <form id="form-inscricao" action="#" method="post" class="inscricao-form">
+      <label for="nome">Nome completo</label>
+      <input type="text" id="nome" name="nome" required placeholder="Seu nome bonito aqui" />
+
+      <label for="email">E-mail</label>
+      <input type="email" id="email" name="email" required placeholder="seuemail@email.com" />
+
+      <label for="motivo">Por que você quer se inscrever?</label>
+      <textarea id="sobre" name="motivo" rows="5" placeholder="Fale tudo, desabafe... ou só inventa algo."></textarea>
+      <div id="contador" style="margin-bottom: 1rem; font-size: 0.9rem; color: gray;"></div>
+
+      <button type="submit">Enviar Inscrição</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>© 2025 Bookshelf</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
